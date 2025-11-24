@@ -1,0 +1,4481 @@
+{
+  "fecha": "2025-11-24T08:23:32.380Z",
+  "totalCartas": 639,
+  "cartasObtenidas": 469,
+  "porcentaje": 73,
+  "cartas": [
+    {
+      "numero": 1,
+      "nombre": "Escudo Deportivo Alavés",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 71,
+      "nombre": "Escudo Atlético de Madrid",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 2,
+      "nombre": "Entrenador Deportivo Alavés - Eduardo Coudet",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 72,
+      "nombre": "Entrenador Atlético de Madrid - Diego Pablo Simeone",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 3,
+      "nombre": "Sivera",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 73,
+      "nombre": "Oblak",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 4,
+      "nombre": "Owono",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 74,
+      "nombre": "Musso",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 5,
+      "nombre": "Tenaglia",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 75,
+      "nombre": "Nahuel Molina",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 6,
+      "nombre": "Hugo Novoa",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 76,
+      "nombre": "Giménez",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 7,
+      "nombre": "Garcés",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 77,
+      "nombre": "Le Normand",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 8,
+      "nombre": "Mouriño",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 78,
+      "nombre": "Lenglet",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 9,
+      "nombre": "Moussa Diarra",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 79,
+      "nombre": "Galán",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 10,
+      "nombre": "Manu Sánchez",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 80,
+      "nombre": "Gallagher",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 11,
+      "nombre": "Guevara",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 81,
+      "nombre": "Marcos Llorente",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 12,
+      "nombre": "Benavídez",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 82,
+      "nombre": "De Paul",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 13,
+      "nombre": "Guridi",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 83,
+      "nombre": "Barrios",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 14,
+      "nombre": "Blanco",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 84,
+      "nombre": "Koke",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 15,
+      "nombre": "Aleñá",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 85,
+      "nombre": "Samuel Lino",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 16,
+      "nombre": "Calebe",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 86,
+      "nombre": "Johnny Cardoso",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 17,
+      "nombre": "Carlos Vicente",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 87,
+      "nombre": "Giuliano",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 18,
+      "nombre": "Toni Martñínez",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 88,
+      "nombre": "Griezmann",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 19,
+      "nombre": "Conechny",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 89,
+      "nombre": "Julián Alvarez",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 20,
+      "nombre": "Villalibre",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 90,
+      "nombre": "Sorloth",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 21,
+      "nombre": "Raúl Fernández",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 91,
+      "nombre": "Pubill",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 22,
+      "nombre": "Jonny",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 92,
+      "nombre": "Ruggeri",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 23,
+      "nombre": "Yusi",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 93,
+      "nombre": "Almada",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 24,
+      "nombre": "Parada",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 94,
+      "nombre": "Nico González",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 25,
+      "nombre": "Mariano",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 101,
+      "nombre": "Escudo FC Barcelona",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 26,
+      "nombre": "Boyé",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 102,
+      "nombre": "Entrenador FC Barcelona - Hansi Flick",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 41,
+      "nombre": "Escudo Athletic Club",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 103,
+      "nombre": "Ter Stegen",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 42,
+      "nombre": "Entrenador Athletic Club - Ernesto Valverde",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 104,
+      "nombre": "Szczesny",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 105,
+      "nombre": "Koundé",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 43,
+      "nombre": "Unai Simón",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 106,
+      "nombre": "Cubarsí",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 44,
+      "nombre": "Padilla",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 107,
+      "nombre": "Íñigo Martínez",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 45,
+      "nombre": "Gorosabel",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 108,
+      "nombre": "Araújo",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 46,
+      "nombre": "Lekue",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 109,
+      "nombre": "Christensen",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 47,
+      "nombre": "Vivian",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 110,
+      "nombre": "Eric García",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 48,
+      "nombre": "Paredes",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 111,
+      "nombre": "Héctor Fort",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 49,
+      "nombre": "Yeray",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 112,
+      "nombre": "Balde",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 50,
+      "nombre": "Yuri",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 113,
+      "nombre": "Gerard Martín",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 51,
+      "nombre": "Adama Boiro",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 114,
+      "nombre": "Casado",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 52,
+      "nombre": "Vesga",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 115,
+      "nombre": "Marc Bernal",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 53,
+      "nombre": "Jauregizar",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 116,
+      "nombre": "De Jong",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 54,
+      "nombre": "Prados",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 117,
+      "nombre": "Fermín",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 55,
+      "nombre": "Ruiz de Galarreta",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 118,
+      "nombre": "Gavi",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 56,
+      "nombre": "Unai Gómez",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 119,
+      "nombre": "Pedri",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 57,
+      "nombre": "Sancet",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 120,
+      "nombre": "Dani Olmo",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 58,
+      "nombre": "Nico Williams",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 121,
+      "nombre": "Ferran Torres",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 59,
+      "nombre": "Maroan",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 122,
+      "nombre": "Raphinha",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 60,
+      "nombre": "Djaló",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 123,
+      "nombre": "Lamine Yamal",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 61,
+      "nombre": "Williams",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 124,
+      "nombre": "Lewandowski",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 125,
+      "nombre": "Jofre Torrents",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 62,
+      "nombre": "Guruzeta",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 63,
+      "nombre": "Berenguer",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 126,
+      "nombre": "Dro",
+      "equipo": "FC BARCELONA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 131,
+      "nombre": "Escudo Real Betis",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 194,
+      "nombre": "Iturbe",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 132,
+      "nombre": "Entrenador Real Betis - Manuel Pellegrini",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 195,
+      "nombre": "Álvaro Núñez",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 196,
+      "nombre": "Diaby",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 133,
+      "nombre": "Pau López",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 197,
+      "nombre": "Affengruber",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 134,
+      "nombre": "Adrián",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 198,
+      "nombre": "John Chetauya",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 135,
+      "nombre": "Aitor Ruibal",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 199,
+      "nombre": "Bigas",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 136,
+      "nombre": "Ortiz",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 200,
+      "nombre": "Jairo",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 137,
+      "nombre": "Bartra",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 201,
+      "nombre": "Febas",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 138,
+      "nombre": "Natan",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 202,
+      "nombre": "Marc Aguado",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 139,
+      "nombre": "Diego Llorente",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 203,
+      "nombre": "Martim Neto",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 140,
+      "nombre": "Perraud",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 204,
+      "nombre": "Nico Fernández",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 141,
+      "nombre": "Ricardo Rodríguez",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 205,
+      "nombre": "Josan",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 142,
+      "nombre": "Junior",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 206,
+      "nombre": "Rodri Mendoza",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 143,
+      "nombre": "Marc Roca",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 207,
+      "nombre": "Yago Santiago",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 144,
+      "nombre": "Altimira",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 208,
+      "nombre": "Agustín Álvarez",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 145,
+      "nombre": "Lo Celso",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 209,
+      "nombre": "Germán Valera",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 146,
+      "nombre": "Pablo Fornals",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 210,
+      "nombre": "Óscar Plano",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 147,
+      "nombre": "Isco",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 211,
+      "nombre": "Mourad",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 148,
+      "nombre": "Pablo García",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 212,
+      "nombre": "Pétrot",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 149,
+      "nombre": "Antony",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 213,
+      "nombre": "Fede Redondo",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 150,
+      "nombre": "Abde",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 214,
+      "nombre": "Ali Houary",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 151,
+      "nombre": "Bakambu",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 215,
+      "nombre": "Rafa Mir",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 152,
+      "nombre": "Cucho Hernández",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 216,
+      "nombre": "Álvaro Rodríguez",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 153,
+      "nombre": "Bellerín",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 217,
+      "nombre": "Iñaki Peña",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 154,
+      "nombre": "Chimy Ávila",
+      "equipo": "REAL BETIS",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 218,
+      "nombre": "Héctor Fort",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 161,
+      "nombre": "Escudo RC Celta",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 219,
+      "nombre": "Diangana",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 162,
+      "nombre": "Entrenador RC Celta - Claudio Giráldez",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 221,
+      "nombre": "Escudo RCD Espanyol",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 163,
+      "nombre": "Radu",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 222,
+      "nombre": "Entrenador RCD Espanyol - Manolo González",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 164,
+      "nombre": "Iván Villar",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 165,
+      "nombre": "Javi Rodriguez",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 223,
+      "nombre": "Dmitrovic",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 166,
+      "nombre": "Carreira",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 224,
+      "nombre": "Fortuño",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 167,
+      "nombre": "Domínguez",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 225,
+      "nombre": "El Hilali",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 168,
+      "nombre": "Yoel Lago",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 226,
+      "nombre": "Cabrera",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 169,
+      "nombre": "Starfelt",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 227,
+      "nombre": "Calero",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 170,
+      "nombre": "Mingueza",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 228,
+      "nombre": "Pablo Ramón",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 171,
+      "nombre": "Marcos Alonso",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 229,
+      "nombre": "Carlos Romero",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 172,
+      "nombre": "Ristic",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 230,
+      "nombre": "Salinas",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 173,
+      "nombre": "Fran Beltrán",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 231,
+      "nombre": "Rubén Sánchez",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 174,
+      "nombre": "Ilaix Moriba",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 232,
+      "nombre": "Gragera",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 175,
+      "nombre": "Damián",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 233,
+      "nombre": "Terrats",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 176,
+      "nombre": "Hugo Álvarez",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 234,
+      "nombre": "Edu Expósito",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 177,
+      "nombre": "Sotelo",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 235,
+      "nombre": "Pol Lozano",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 178,
+      "nombre": "Cervi",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 236,
+      "nombre": "Antoniu Roca",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 179,
+      "nombre": "Pablo Durán",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 237,
+      "nombre": "Jofre",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 180,
+      "nombre": "Swedberg",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 238,
+      "nombre": "Roberto Fernández",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 181,
+      "nombre": "Borja Iglesias",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 239,
+      "nombre": "Puado",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 182,
+      "nombre": "Iago Aspas",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 240,
+      "nombre": "Pere Milla",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 183,
+      "nombre": "Javi Rueda",
+      "equipo": "RC CELTA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 241,
+      "nombre": "Riedel",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 191,
+      "nombre": "Escudo Elche CF",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 242,
+      "nombre": "Urko",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 192,
+      "nombre": "Entrenador Elche CF - Eder Sarabia",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 243,
+      "nombre": "Koleosho",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 193,
+      "nombre": "Dituro",
+      "equipo": "ELCHE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 251,
+      "nombre": "Escudo Getafe CF",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 252,
+      "nombre": "Entrenador Getafe CF- José Bordalás",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 307,
+      "nombre": "Ounahi",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 253,
+      "nombre": "David Soria",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 308,
+      "nombre": "Bryan Gil",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 254,
+      "nombre": "Letacek",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 311,
+      "nombre": "Escudo Levante UD",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 255,
+      "nombre": "Iglesias",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 312,
+      "nombre": "Entrenador Levante UD - Julián Calero",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 256,
+      "nombre": "Sola",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 313,
+      "nombre": "Pablo Campos",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 257,
+      "nombre": "Davinchi",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 314,
+      "nombre": "Alfonso Pastor",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 258,
+      "nombre": "Alderete",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 315,
+      "nombre": "Xavi Grande",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 259,
+      "nombre": "Djene",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 316,
+      "nombre": "Dela",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 260,
+      "nombre": "Domingos Duarte",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 317,
+      "nombre": "Cabello",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 261,
+      "nombre": "Berrocal",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 318,
+      "nombre": "Matturro",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 262,
+      "nombre": "Diego Rico",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 319,
+      "nombre": "Elgezabal",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 263,
+      "nombre": "Arambarri",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 320,
+      "nombre": "Pampín",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 264,
+      "nombre": "Mario Martín",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 321,
+      "nombre": "Iborra",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 265,
+      "nombre": "Uche",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 322,
+      "nombre": "Oriol Rey",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 266,
+      "nombre": "Milla",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 323,
+      "nombre": "Sergio Lozano",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 267,
+      "nombre": "Javi Muñoz",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 324,
+      "nombre": "Olasagasti",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 268,
+      "nombre": "Coba",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 325,
+      "nombre": "Pablo Martínez",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 269,
+      "nombre": "Peter Federico",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 326,
+      "nombre": "Carlos Álvarez",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 270,
+      "nombre": "Juanmi",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 327,
+      "nombre": "Iván Romero",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 271,
+      "nombre": "Borja Mayoral",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 328,
+      "nombre": "Morales",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 272,
+      "nombre": "Álvaro Rodríguez",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 329,
+      "nombre": "Carlos Espí",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 273,
+      "nombre": "Álex Sancris",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 330,
+      "nombre": "Víctor Fernández",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 274,
+      "nombre": "Abqar",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 331,
+      "nombre": "Brugué",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 275,
+      "nombre": "Neyou",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 332,
+      "nombre": "Víctor García",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 276,
+      "nombre": "Abu Kamara",
+      "equipo": "GETAFE CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 333,
+      "nombre": "Manu Sánchez",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 281,
+      "nombre": "Escudo Girona FC",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 334,
+      "nombre": "Iker Losada",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 282,
+      "nombre": "Entrenador Girona FC - Míchel",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 335,
+      "nombre": "Ryan",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 283,
+      "nombre": "Gazzaniga",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 336,
+      "nombre": "Arriaga",
+      "equipo": "LEVANTE UD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 284,
+      "nombre": "Krapivtsov",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 341,
+      "nombre": "Escudo Real Madrid",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 285,
+      "nombre": "Juan Carlos",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 342,
+      "nombre": "Entrenador Real Madrid - Xabi Alonso",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 286,
+      "nombre": "Arnau",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 343,
+      "nombre": "Courtois",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 287,
+      "nombre": "Francés",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 344,
+      "nombre": "Lunin",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 288,
+      "nombre": "David López",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 345,
+      "nombre": "Carvajal",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 289,
+      "nombre": "Krejci",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 346,
+      "nombre": "Asencio",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 290,
+      "nombre": "Blind",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 347,
+      "nombre": "Rüdiger",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 291,
+      "nombre": "Miguel Gutiérrez",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 348,
+      "nombre": "Militao",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 292,
+      "nombre": "Solis",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 349,
+      "nombre": "Alaba",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 293,
+      "nombre": "Van de Beek",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 350,
+      "nombre": "Mendy",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 294,
+      "nombre": "Arthur",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 351,
+      "nombre": "Fran García",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 295,
+      "nombre": "Yangel Herrera",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 352,
+      "nombre": "Tchouaméni",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 296,
+      "nombre": "Ivan Martín",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 353,
+      "nombre": "Camavinga",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 297,
+      "nombre": "Tsygankov",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 354,
+      "nombre": "Dani Ceballos",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 298,
+      "nombre": "Yáser Asprilla",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 355,
+      "nombre": "Fede Valverde",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 299,
+      "nombre": "Portu",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 356,
+      "nombre": "Bellingham",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 300,
+      "nombre": "Misehouy",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 357,
+      "nombre": "Güler",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 301,
+      "nombre": "Stuani",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 358,
+      "nombre": "Brahim Díaz",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 302,
+      "nombre": "Abel Ruiz",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 359,
+      "nombre": "Endrick",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 303,
+      "nombre": "Miovski",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 360,
+      "nombre": "Rodrygo",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 304,
+      "nombre": "Joel Roca",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 361,
+      "nombre": "Mbappé",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 305,
+      "nombre": "Witsel",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 362,
+      "nombre": "Vinícius",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 306,
+      "nombre": "Álex Moreno",
+      "equipo": "GIRONA  FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 363,
+      "nombre": "Gonzalo",
+      "equipo": "REAL MADRID",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 371,
+      "nombre": "Escudo RCD Mallorca",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 435,
+      "nombre": "Nacho Vidal",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 372,
+      "nombre": "Entrenador RCD Mallorca - Jagoba Arrasate",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 436,
+      "nombre": "Dani Calvo",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 437,
+      "nombre": "Luengo",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 373,
+      "nombre": "Greif",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 438,
+      "nombre": "David Costas",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 374,
+      "nombre": "Bergström",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 439,
+      "nombre": "Rahim Alhassane",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 375,
+      "nombre": "Maffeo",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 440,
+      "nombre": "Ejaria",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 376,
+      "nombre": "Morey",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 441,
+      "nombre": "Colombatto",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 377,
+      "nombre": "Raillo",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 442,
+      "nombre": "Reina",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 378,
+      "nombre": "Copete",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 443,
+      "nombre": "Sibo",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 379,
+      "nombre": "Valjent",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 444,
+      "nombre": "Santi Cazorla",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 380,
+      "nombre": "Mojica",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 445,
+      "nombre": "Ilic",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 381,
+      "nombre": "Lato",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 446,
+      "nombre": "Álex Cardero",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 382,
+      "nombre": "Mascarell",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 447,
+      "nombre": "Lucas Ahijado",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 383,
+      "nombre": "Samu Costa",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 448,
+      "nombre": "Hassan",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 384,
+      "nombre": "Darder",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 449,
+      "nombre": "Ilyas Chaira",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 385,
+      "nombre": "Antonio Sánchez",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 450,
+      "nombre": "Fede Viñas",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 386,
+      "nombre": "Dani Rodríguez",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 451,
+      "nombre": "Paraschiv",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 387,
+      "nombre": "Morlanes",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 452,
+      "nombre": "Paulino",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 388,
+      "nombre": "Marc Domènech",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 453,
+      "nombre": "Brekalo",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 389,
+      "nombre": "Asano",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 454,
+      "nombre": "Álex Forés",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 390,
+      "nombre": "Muriqi",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 455,
+      "nombre": "Bailly",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 391,
+      "nombre": "Abdón",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 456,
+      "nombre": "Ilic (escudo)",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 392,
+      "nombre": "Larin",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 461,
+      "nombre": "Escudo Rayo Vallecano",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 393,
+      "nombre": "Leo Román",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 462,
+      "nombre": "Entrenador Rayo Vallecano - Íñigo Pérez",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 394,
+      "nombre": "Kumbulla",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 463,
+      "nombre": "Batalla",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 395,
+      "nombre": "Javi Llabrés",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 464,
+      "nombre": "Cárdenas",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 401,
+      "nombre": "Escudo CA Osasuna",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 465,
+      "nombre": "Balliu",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 402,
+      "nombre": "Entrenador CA Osasuna - Alessio Lisci",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 466,
+      "nombre": "Ratiu",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 403,
+      "nombre": "Sergio Herrera",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 467,
+      "nombre": "Lejeune",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 404,
+      "nombre": "Aitor Fernández",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 468,
+      "nombre": "Mumin",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 405,
+      "nombre": "Rosier",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 469,
+      "nombre": "Espino",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 406,
+      "nombre": "Catena",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 470,
+      "nombre": "Pep Chavarria",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 407,
+      "nombre": "Boyomo",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 471,
+      "nombre": "Pathé Ciss",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 408,
+      "nombre": "Herrando",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 472,
+      "nombre": "Óscar Valentín",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 409,
+      "nombre": "Juan Cruz",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 473,
+      "nombre": "Pedro Díaz",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 410,
+      "nombre": "Abel Bretones",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 474,
+      "nombre": "Isi",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 411,
+      "nombre": "Moncayola",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 475,
+      "nombre": "Nteka",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 412,
+      "nombre": "Torró",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 476,
+      "nombre": "Trejo",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 413,
+      "nombre": "Iker Muñoz",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 477,
+      "nombre": "Unai López",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 414,
+      "nombre": "Rubén García",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 478,
+      "nombre": "Camello",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 415,
+      "nombre": "Moi Gómez",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 479,
+      "nombre": "De Frutos",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 416,
+      "nombre": "Aimar Oroz",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 480,
+      "nombre": "Álvaro García",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 417,
+      "nombre": "Víctor Muñoz",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 481,
+      "nombre": "Etienne Eto'o",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 418,
+      "nombre": "Kike Barja",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 482,
+      "nombre": "Gumbau",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 419,
+      "nombre": "Budimir",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 483,
+      "nombre": "Vertrouwd",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 420,
+      "nombre": "Raul García",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 484,
+      "nombre": "Fran Pérez",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 431,
+      "nombre": "Escudo Real Oviedo",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 491,
+      "nombre": "Escudo Real Sociedad",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 432,
+      "nombre": "Entrenador Real Oviedo - Veljko Paunovic",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 492,
+      "nombre": "Entrenador Real Sociedad - Sergio Francisco",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 433,
+      "nombre": "Aarón Escandell",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 493,
+      "nombre": "Remiro",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 434,
+      "nombre": "Moldovan",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 494,
+      "nombre": "Marrero",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 495,
+      "nombre": "Aramburu",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 553,
+      "nombre": "Dimitrievski",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 496,
+      "nombre": "Traoré",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 554,
+      "nombre": "Agirrezabala",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 497,
+      "nombre": "Martín",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 555,
+      "nombre": "Correia",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 498,
+      "nombre": "Zubeldia",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 556,
+      "nombre": "Foulquier",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 499,
+      "nombre": "Pacheco",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 557,
+      "nombre": "Mosquera",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 500,
+      "nombre": "Aritz Elustondo",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 558,
+      "nombre": "Diakhaby",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 501,
+      "nombre": "Javi López",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 559,
+      "nombre": "Tárrega",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 502,
+      "nombre": "Aihen Muñoz",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 503,
+      "nombre": "Turrientes",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 560,
+      "nombre": "Yarek",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 504,
+      "nombre": "Pablo Marín",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 561,
+      "nombre": "Jesús Vázquez",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 505,
+      "nombre": "Sergio Gómez",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 562,
+      "nombre": "Gayà",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 506,
+      "nombre": "Brais Méndez",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 563,
+      "nombre": "Santamaria",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 507,
+      "nombre": "Olasagasti",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 564,
+      "nombre": "Guillamón",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 508,
+      "nombre": "Sucic",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 509,
+      "nombre": "Kubo",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 565,
+      "nombre": "Pepelu",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 510,
+      "nombre": "Barrenetxea",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 566,
+      "nombre": "André Almeida",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 511,
+      "nombre": "Oyarzabal",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 567,
+      "nombre": "Javi Guerra",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 512,
+      "nombre": "Mariezkurrena",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 513,
+      "nombre": "Óskarsson",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 568,
+      "nombre": "Luis Rioja",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 514,
+      "nombre": "Zakharyan",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 569,
+      "nombre": "Canós",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 515,
+      "nombre": "Odriozola",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 570,
+      "nombre": "Fran Pérez",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 516,
+      "nombre": "Karrikaburu",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 571,
+      "nombre": "Hugo Duro",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 521,
+      "nombre": "Escudo Sevilla FC",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 522,
+      "nombre": "Entrenador Sevilla FC - Matías Almeyda",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 572,
+      "nombre": "Diego López",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 523,
+      "nombre": "Nyland",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 573,
+      "nombre": "Copete",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 524,
+      "nombre": "Álvaro Fernández",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 574,
+      "nombre": "Danjuma",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 525,
+      "nombre": "Carmona",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 575,
+      "nombre": "Cömert",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 526,
+      "nombre": "Juanlu",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 576,
+      "nombre": "Lucas Beltrán",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 527,
+      "nombre": "Kike Salas",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 581,
+      "nombre": "Escudo Villarreal CF",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 528,
+      "nombre": "Marcao",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 582,
+      "nombre": "Entrenador Villarreal CF - Marcelino García",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 529,
+      "nombre": "Badé",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 530,
+      "nombre": "Nianzou",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 583,
+      "nombre": "Luiz Júnior",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 531,
+      "nombre": "Pedrosa",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 584,
+      "nombre": "Diego Conde",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 532,
+      "nombre": "Gudelj",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 533,
+      "nombre": "Sow",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 585,
+      "nombre": "Pau Navarro",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 534,
+      "nombre": "Agoumé",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 586,
+      "nombre": "Foyth",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 535,
+      "nombre": "Vargas",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 587,
+      "nombre": "Logan Costa",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 536,
+      "nombre": "Manu Bueno",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 588,
+      "nombre": "Kambwala",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 537,
+      "nombre": "Peque",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 538,
+      "nombre": "Ejuke",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 589,
+      "nombre": "Sergi Cardona",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 539,
+      "nombre": "Lukebakio",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 590,
+      "nombre": "Pedraza",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 540,
+      "nombre": "Isaac Romero",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 591,
+      "nombre": "Santi Comesaña",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 541,
+      "nombre": "Akor Adams",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 542,
+      "nombre": "Idumbo",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 592,
+      "nombre": "Pape Gueye",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 543,
+      "nombre": "Vlachodimos",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 593,
+      "nombre": "Parejo",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 544,
+      "nombre": "Castrín",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 594,
+      "nombre": "Denis Suárez",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 545,
+      "nombre": "Azpilicueta",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 546,
+      "nombre": "Alexis Sánchez",
+      "equipo": "SEVILLA FC",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 595,
+      "nombre": "Yeremy Pino",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 551,
+      "nombre": "Escudo Valencia CF",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 596,
+      "nombre": "Ilias",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 552,
+      "nombre": "Entrenador Valencia CF - Carlos Corberán",
+      "equipo": "VALENCIA CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 597,
+      "nombre": "Pépé",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 598,
+      "nombre": "Gerard Moreno",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 647,
+      "nombre": "Agirrezabala",
+      "equipo": "VALENCIA CF",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 651,
+      "nombre": "Aimar Oroz / Budimir",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 599,
+      "nombre": "Ayoze",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 652,
+      "nombre": "Arambarri / Milla",
+      "equipo": "GETAFE CF",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 600,
+      "nombre": "Barry",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 653,
+      "nombre": "Asencio / Rüdiger",
+      "equipo": "REAL MADRID",
+      "seccion": "Mix",
+      "obtenida": false
+    },
+    {
+      "numero": 601,
+      "nombre": "Buchanan",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 654,
+      "nombre": "Cubarsí / Íñigo Martínez",
+      "equipo": "FC BARCELONA",
+      "seccion": "Mix",
+      "obtenida": false
+    },
+    {
+      "numero": 602,
+      "nombre": "Thomas",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 655,
+      "nombre": "Darder / Muriqi",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 603,
+      "nombre": "Arnau Tenas",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": false
+    },
+    {
+      "numero": 656,
+      "nombre": "De Paul / Barrios",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Mix",
+      "obtenida": false
+    },
+    {
+      "numero": 604,
+      "nombre": "Oluwasayi",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Jugadores",
+      "obtenida": true
+    },
+    {
+      "numero": 657,
+      "nombre": "Fede Valverde / Bellingham",
+      "equipo": "REAL MADRID",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 611,
+      "nombre": "Asencio.",
+      "equipo": "REAL MADRID",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 658,
+      "nombre": "Fer López / Iago Aspas",
+      "equipo": "RC CELTA",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 659,
+      "nombre": "Giuliano / Sorloth",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 612,
+      "nombre": "Balde",
+      "equipo": "FC BARCELONA",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": false
+    },
+    {
+      "numero": 660,
+      "nombre": "Griezmann / Julián Álvarez",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 661,
+      "nombre": "Isco / Lo Celso",
+      "equipo": "REAL BETIS",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 613,
+      "nombre": "Barrios",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 662,
+      "nombre": "Isi / Álvaro García",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 614,
+      "nombre": "Barry",
+      "equipo": "VILLARREAL CF",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 663,
+      "nombre": "Jauregizar / Sancet",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Mix",
+      "obtenida": false
+    },
+    {
+      "numero": 664,
+      "nombre": "Javi Guerra / Hugo Duro",
+      "equipo": "VALENCIA CF",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 615,
+      "nombre": "Casadó",
+      "equipo": "FC BARCELONA",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 665,
+      "nombre": "Jesús Rodríguez / Cucho Hernández",
+      "equipo": "REAL BETIS",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 666,
+      "nombre": "Jofre / Puado",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 616,
+      "nombre": "Cubarsí",
+      "equipo": "FC BARCELONA",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 667,
+      "nombre": "Kubo / Oyarzabal",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 617,
+      "nombre": "Diego López",
+      "equipo": "VALENCIA CF",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 668,
+      "nombre": "Mingueza / Javi Rodríguez",
+      "equipo": "RC CELTA",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 669,
+      "nombre": "Parejo / Ayoze",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 618,
+      "nombre": "Fer López",
+      "equipo": "RC CELTA",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 670,
+      "nombre": "Pedri / Lamine Yamal",
+      "equipo": "FC BARCELONA",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 619,
+      "nombre": "Giuliano",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 671,
+      "nombre": "Raphinha / Lewandowski",
+      "equipo": "FC BARCELONA",
+      "seccion": "Mix",
+      "obtenida": false
+    },
+    {
+      "numero": 672,
+      "nombre": "Vinícius / Mbappé",
+      "equipo": "REAL MADRID",
+      "seccion": "Mix",
+      "obtenida": false
+    },
+    {
+      "numero": 620,
+      "nombre": "Güler",
+      "equipo": "REAL MADRID",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 673,
+      "nombre": "Williams / Nico Williams",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 674,
+      "nombre": "Koundé / Balde",
+      "equipo": "FC BARCELONA",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 621,
+      "nombre": "Jauregizar",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 675,
+      "nombre": "Álex Baena / Almada",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Mix",
+      "obtenida": false
+    },
+    {
+      "numero": 622,
+      "nombre": "Javi Guerra",
+      "equipo": "VALENCIA CF",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 676,
+      "nombre": "Jutglà / Bryan Zaragoza /",
+      "equipo": "RC CELTA",
+      "seccion": "Mix",
+      "obtenida": false
+    },
+    {
+      "numero": 677,
+      "nombre": "Antony / Cucho Hernández",
+      "equipo": "REAL BETIS",
+      "seccion": "Mix",
+      "obtenida": true
+    },
+    {
+      "numero": 623,
+      "nombre": "Jesús Rodríguez",
+      "equipo": "REAL BETIS",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 681,
+      "nombre": "Huijsen",
+      "equipo": "REAL MADRID",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 682,
+      "nombre": "Jutglà",
+      "equipo": "RC CELTA",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 624,
+      "nombre": "Lamine Yamal",
+      "equipo": "FC BARCELONA",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 683,
+      "nombre": "Pablo Ibáñez",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 625,
+      "nombre": "Pablo Marín",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "ADN LA LIGA / SUPERKIDS",
+      "obtenida": true
+    },
+    {
+      "numero": 684,
+      "nombre": "Robert Navarro",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 685,
+      "nombre": "Rafa Marín",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 631,
+      "nombre": "Batalla",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 686,
+      "nombre": "Toljan",
+      "equipo": "LEVANTE UD",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 632,
+      "nombre": "Courtois",
+      "equipo": "REAL MADRID",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 687,
+      "nombre": "Miguel Rubio",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 633,
+      "nombre": "David Soria",
+      "equipo": "GETAFE CF",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 688,
+      "nombre": "Joan García",
+      "equipo": "FC BARCELONA",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 634,
+      "nombre": "Dimitrievski",
+      "equipo": "VALENCIA CF",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 689,
+      "nombre": "Trent",
+      "equipo": "REAL MADRID",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 635,
+      "nombre": "Gazzaniga",
+      "equipo": "GIRONA  FC",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 690,
+      "nombre": "Riquelme",
+      "equipo": "REAL BETIS",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 636,
+      "nombre": "Luiz Júnior",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 691,
+      "nombre": "Raba",
+      "equipo": "VALENCIA CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 637,
+      "nombre": "Lunin",
+      "equipo": "REAL MADRID",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 692,
+      "nombre": "Pablo Torre",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 638,
+      "nombre": "Nyland",
+      "equipo": "SEVILLA FC",
+      "seccion": "Mister Cero",
+      "obtenida": false
+    },
+    {
+      "numero": 693,
+      "nombre": "Hugo Rincón",
+      "equipo": "GIRONA  FC",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 639,
+      "nombre": "Oblak",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 694,
+      "nombre": "Kike García",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 640,
+      "nombre": "Remiro",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 695,
+      "nombre": "Moleiro",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 641,
+      "nombre": "Sergio Herrera",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 696,
+      "nombre": "Alfon",
+      "equipo": "SEVILLA FC",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 642,
+      "nombre": "Sivera",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Mister Cero",
+      "obtenida": false
+    },
+    {
+      "numero": 697,
+      "nombre": "Valentín Gómez",
+      "equipo": "REAL BETIS",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 643,
+      "nombre": "Unai Simón",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 698,
+      "nombre": "Carreras",
+      "equipo": "REAL MADRID",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 644,
+      "nombre": "Casillas",
+      "equipo": "REAL MADRID",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 699,
+      "nombre": "Gorrotxategi",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 645,
+      "nombre": "Reina",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 700,
+      "nombre": "Rashford",
+      "equipo": "FC BARCELONA",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 701,
+      "nombre": "Valles",
+      "equipo": "REAL BETIS",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 646,
+      "nombre": "Víctor Valdés",
+      "equipo": "FC BARCELONA",
+      "seccion": "Mister Cero",
+      "obtenida": true
+    },
+    {
+      "numero": 702,
+      "nombre": "Brandon Domingues",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 703,
+      "nombre": "Kiko Femenía",
+      "equipo": "GETAFE CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 764,
+      "nombre": "Isco",
+      "equipo": "REAL BETIS",
+      "seccion": "Extra Gold",
+      "obtenida": false
+    },
+    {
+      "numero": 704,
+      "nombre": "Álex Baena",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 765,
+      "nombre": "Lewandowski",
+      "equipo": "FC BARCELONA",
+      "seccion": "Extra Gold",
+      "obtenida": true
+    },
+    {
+      "numero": 705,
+      "nombre": "Chust",
+      "equipo": "ELCHE CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 766,
+      "nombre": "Nico Williams",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Extra Gold",
+      "obtenida": false
+    },
+    {
+      "numero": 706,
+      "nombre": "Suazo",
+      "equipo": "SEVILLA FC",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 767,
+      "nombre": "Pedri",
+      "equipo": "FC BARCELONA",
+      "seccion": "Extra Gold",
+      "obtenida": false
+    },
+    {
+      "numero": 707,
+      "nombre": "Dolan",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 768,
+      "nombre": "Sancet",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Extra Gold",
+      "obtenida": false
+    },
+    {
+      "numero": 708,
+      "nombre": "Vitor Reis",
+      "equipo": "GIRONA  FC",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 769,
+      "nombre": "Raphinha",
+      "equipo": "FC BARCELONA",
+      "seccion": "Extra Gold",
+      "obtenida": false
+    },
+    {
+      "numero": 709,
+      "nombre": "Caleta-Car",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 770,
+      "nombre": "Vinícius",
+      "equipo": "REAL MADRID",
+      "seccion": "Extra Gold",
+      "obtenida": false
+    },
+    {
+      "numero": 710,
+      "nombre": "Mouriño",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 771,
+      "nombre": "Julián Álvarez",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Extra Gold",
+      "obtenida": false
+    },
+    {
+      "numero": 711,
+      "nombre": "Bryan Zaragoza",
+      "equipo": "RC CELTA",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 772,
+      "nombre": "Lamine Yamal",
+      "equipo": "FC BARCELONA",
+      "seccion": "Extra Gold",
+      "obtenida": false
+    },
+    {
+      "numero": 712,
+      "nombre": "Areso",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 713,
+      "nombre": "Mateo Joseph",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 773,
+      "nombre": "Mbappé",
+      "equipo": "REAL MADRID",
+      "seccion": "Extra Gold",
+      "obtenida": true
+    },
+    {
+      "numero": 714,
+      "nombre": "Liso",
+      "equipo": "GETAFE CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 715,
+      "nombre": "Hancko",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 716,
+      "nombre": "Guedes",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 717,
+      "nombre": "Ugrinic",
+      "equipo": "VALENCIA CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 718,
+      "nombre": "Rondón",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 719,
+      "nombre": "Deossa",
+      "equipo": "REAL BETIS",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 720,
+      "nombre": "Lemar",
+      "equipo": "GIRONA  FC",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 721,
+      "nombre": "Bardghji",
+      "equipo": "FC BARCELONA",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 722,
+      "nombre": "Raspadori",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 723,
+      "nombre": "Koyalipou",
+      "equipo": "LEVANTE UD",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 724,
+      "nombre": "André Silva",
+      "equipo": "ELCHE CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 725,
+      "nombre": "Renato Veiga",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 726,
+      "nombre": "Mastantuono",
+      "equipo": "REAL MADRID",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 727,
+      "nombre": "Luiz Felipe",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 728,
+      "nombre": "Becker",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 729,
+      "nombre": "Jan Virgili",
+      "equipo": "RCD MALLORCA",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 730,
+      "nombre": "Pickel",
+      "equipo": "RCD ESPANYOL",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 731,
+      "nombre": "Denis Suárez",
+      "equipo": "DEPORTIVO ALAVÉS",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 732,
+      "nombre": "Solomon",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 733,
+      "nombre": "Dendoncker",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 734,
+      "nombre": "Pedrosa",
+      "equipo": "ELCHE CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 735,
+      "nombre": "Amrabat",
+      "equipo": "REAL BETIS",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 736,
+      "nombre": "Alemão",
+      "equipo": "RAYO VALLECANO",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 737,
+      "nombre": "Carlos Soler",
+      "equipo": "REAL SOCIEDAD",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 738,
+      "nombre": "Etta Eyong",
+      "equipo": "LEVANTE UD",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 739,
+      "nombre": "Livakovic",
+      "equipo": "GIRONA  FC",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 740,
+      "nombre": "Fábio Cardoso",
+      "equipo": "SEVILLA FC",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 741,
+      "nombre": "David Carmo",
+      "equipo": "REAL OVIEDO",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 742,
+      "nombre": "Batista Mendy",
+      "equipo": "SEVILLA FC",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 743,
+      "nombre": "Ramazani",
+      "equipo": "SEVILLA FC",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 744,
+      "nombre": "Vanat",
+      "equipo": "GIRONA  FC",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 745,
+      "nombre": "Mikautadze",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Ultimos fichajes",
+      "obtenida": false
+    },
+    {
+      "numero": 746,
+      "nombre": "Laporte",
+      "equipo": "ATHLETIC CLUB",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 747,
+      "nombre": "Álex Baena",
+      "equipo": "ATLÉTICO DE MADRID",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 748,
+      "nombre": "Rashford",
+      "equipo": "FC BARCELONA",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 749,
+      "nombre": "Mastantuono",
+      "equipo": "REAL MADRID",
+      "seccion": "Ultimos fichajes",
+      "obtenida": true
+    },
+    {
+      "numero": 761,
+      "nombre": "Ayoze",
+      "equipo": "VILLARREAL CF",
+      "seccion": "Extra Gold",
+      "obtenida": false
+    },
+    {
+      "numero": 762,
+      "nombre": "Bellingham",
+      "equipo": "REAL MADRID",
+      "seccion": "Extra Gold",
+      "obtenida": true
+    },
+    {
+      "numero": 763,
+      "nombre": "Budimir",
+      "equipo": "C.A. OSASUNA",
+      "seccion": "Extra Gold",
+      "obtenida": true
+    }
+  ]
+}
