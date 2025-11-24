@@ -1,0 +1,18 @@
+# Datos personales (progreso)
+progreso_cromos_laliga.json
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales
+*.tmp
+*.bak
+
