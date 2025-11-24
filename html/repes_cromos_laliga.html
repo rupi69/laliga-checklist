@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaLiga 2025-26 - Gestión de Repes</title>
+    <link rel="icon" type="image/png" href="../logos/LL_RGB_h_monocromo_positivo.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background: #f7fafc;
+            color: #1a202c;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 0.5rem;
+        }
+
+        .header .subtitle {
+            color: #000000;
+            font-size: 1.1rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            padding: 0.5rem 1rem;
+            background: #3182ce;
+            color: white;
+            text-decoration: none;
+            border-radius: 0;
+            font-weight: 600;
+            transition: background-color 0.2s;
+        }
+
+        .back-link:hover {
+            background: #2c5aa0;
+        }
+
+        .add-repe-section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .add-repe-section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #2d3748;
+            text-align: center;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .form-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #4a5568;
+            font-size: 0.9rem;
+        }
+
+        .form-group select,
+        .form-group input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .form-group input[type="text"] {
+            font-size: 0.95rem;
+        }
+
+        .add-button {
+            background: #3182ce;
+            color: white;
+            border: none;
+            padding: 0.75rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            border-radius: 0;
+            align-self: flex-end;
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .add-button:hover {
+            background: #2c5aa0;
+        }
+
+        .repes-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .repes-section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #2d3748;
+            text-align: center;
+        }
+
+        .controls-row {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 0;
+            transition: background-color 0.2s;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .btn-save {
+            background: #10B981;
+            color: white;
+        }
+
+        .btn-save:hover {
+            background: #059669;
+        }
+
+        .btn-clear {
+            background: #e53e3e;
+            color: white;
+        }
+
+        .btn-clear:hover {
+            background: #c53030;
+        }
+
+        .repes-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .repes-group {
+            border: 1px solid #e2e8f0;
+            border-radius: 0;
+            overflow: hidden;
+            background: #f7fafc;
+        }
+
+        .repes-group-header {
+            padding: 0.5rem 0.75rem;
+            background: #3182ce;
+            color: white;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .repes-group-content {
+            padding: 0.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+
+        .repe-item {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 0.4rem 0.6rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+
+        .repe-nc {
+            font-weight: 700;
+            color: #3182ce;
+            font-size: 0.95rem;
+        }
+
+        .repe-delete {
+            color: #e53e3e;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 0 0.25rem;
+            transition: color 0.2s;
+        }
+
+        .repe-delete:hover {
+            color: #c53030;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: #718096;
+        }
+
+        .empty-state p {
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .form-row {
+                flex-direction: column;
+            }
+
+            .add-button,
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="checklist_cromos_laliga.html" class="back-link">← Volver al Checklist Principal</a>
+        
+        <div class="header">
+            <h1>🔄 Gestión de Repes</h1>
+            <p class="subtitle">Administra tus cromos repetidos</p>
+        </div>
+
+        <div class="add-repe-section">
+            <h2>Añadir Repe</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="equipoSelect">Equipo</label>
+                    <select id="equipoSelect">
+                        <option value="">Selecciona un equipo</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="seccionSelect">Sección</label>
+                    <select id="seccionSelect">
+                        <option value="">Selecciona una sección</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ncInput">NC (Número de Carta)</label>
+                    <input type="text" id="ncInput" placeholder="Ej: 6, 13B, 14Bis, etc.">
+                </div>
+            </div>
+            <button class="add-button" onclick="addRepe()">➕ Añadir Repe</button>
+        </div>
+
+        <div class="repes-section">
+            <div class="controls-row">
+                <button class="btn btn-save" onclick="saveRepes()">💾 Guardar Repes</button>
+                <button class="btn btn-clear" onclick="clearAllRepes()">🗑️ Limpiar Todo</button>
+            </div>
+            <h2>Mis Repes</h2>
+            <div id="repesList" class="repes-list">
+                <!-- Se llenará dinámicamente -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Datos de repes almacenados
+        let repes = JSON.parse(localStorage.getItem('repes')) || [];
+
+        // Colores oficiales por equipo (mismo criterio que la página principal)
+        const teamColors = {
+            'DEPORTIVO ALAVÉS': '#0033A0',
+            'ATHLETIC CLUB': '#EE2523',
+            'ATLÉTICO DE MADRID': '#CE1126',
+            'FC BARCELONA': '#A50044,#004D98',
+            'REAL BETIS': '#00A651,#FFFFFF',
+            'RC CELTA': '#8AC3EE',
+            'ELCHE CF': '#FFFFFF,#009746',
+            'RCD ESPANYOL': '#2388C4',
+            'GETAFE CF': '#0066CC',
+            'GIRONA  FC': '#FF0000,#FFFFFF',
+            'LEVANTE UD': '#005CA5,#B4053F',
+            'REAL MADRID': '#FFFFFF',
+            'RCD MALLORCA': '#FF0000',
+            'C.A. OSASUNA': '#D70F27,#FFFFFF,#00004C',
+            'REAL OVIEDO': '#4169E1,#FFFFFF',
+            'RAYO VALLECANO': '#FFFFFF,#FF0000',
+            'REAL SOCIEDAD': '#0066CC,#FFFFFF',
+            'SEVILLA FC': '#E30613',
+            'VALENCIA CF': '#FF8200,#000000,#FFFFFF',
+            'VILLARREAL CF': '#FFF200'
+        };
+
+        // Orden de equipos (mismo que la página principal)
+        const equipoOrder = [
+            'DEPORTIVO ALAVÉS',
+            'ATHLETIC CLUB',
+            'ATLÉTICO DE MADRID',
+            'FC BARCELONA',
+            'REAL BETIS',
+            'RC CELTA',
+            'ELCHE CF',
+            'RCD ESPANYOL',
+            'GETAFE CF',
+            'GIRONA  FC',
+            'LEVANTE UD',
+            'REAL MADRID',
+            'RCD MALLORCA',
+            'C.A. OSASUNA',
+            'REAL OVIEDO',
+            'RAYO VALLECANO',
+            'REAL SOCIEDAD',
+            'SEVILLA FC',
+            'VALENCIA CF',
+            'VILLARREAL CF'
+        ];
+
+        // Estilos por sección y su orden al final
+        const sectionStyles = {
+            'ADN LA LIGA / SUPERKIDS': { color: '#3B82F6', order: 1 },
+            'Mister Cero': { color: '#FF6B35', order: 2 },
+            'Mix': { color: '#FFD700', order: 3 },
+            'Ultimos fichajes': { color: '#10B981', order: 4 }
+        };
+
+        // Equipos disponibles
+        const equipos = [
+            'ATHLETIC CLUB',
+            'ATLÉTICO DE MADRID',
+            'C.A. OSASUNA',
+            'DEPORTIVO ALAVÉS',
+            'ELCHE CF',
+            'FC BARCELONA',
+            'GETAFE CF',
+            'GIRONA  FC',
+            'LEVANTE UD',
+            'RAYO VALLECANO',
+            'RC CELTA',
+            'RCD ESPANYOL',
+            'RCD MALLORCA',
+            'REAL BETIS',
+            'REAL MADRID',
+            'REAL OVIEDO',
+            'REAL SOCIEDAD',
+            'SEVILLA FC',
+            'VALENCIA CF',
+            'VILLARREAL CF'
+        ];
+
+        // Secciones disponibles
+        const secciones = [
+            'Jugadores',
+            'ADN LA LIGA / SUPERKIDS',
+            'Mister Cero',
+            'Mix',
+            'Ultimos fichajes',
+            'Extra Gold'
+        ];
+
+        // Inicializar selects
+        function initializeSelects() {
+            const equipoSelect = document.getElementById('equipoSelect');
+            const seccionSelect = document.getElementById('seccionSelect');
+
+            equipos.forEach(equipo => {
+                const option = document.createElement('option');
+                option.value = equipo;
+                option.textContent = equipo;
+                equipoSelect.appendChild(option);
+            });
+
+            secciones.forEach(seccion => {
+                const option = document.createElement('option');
+                option.value = seccion;
+                option.textContent = seccion;
+                seccionSelect.appendChild(option);
+            });
+
+            // Por defecto, deshabilitar equipo hasta que se seleccione 'Jugadores'
+            equipoSelect.disabled = true;
+            seccionSelect.addEventListener('change', () => {
+                const sel = seccionSelect.value;
+                const isJugadores = sel === 'Jugadores';
+                equipoSelect.disabled = !isJugadores;
+            });
+        }
+
+        // Normalización para evitar duplicados por espacios/variantes
+        function normalizeTeamName(name) {
+            if (!name) return '';
+            return String(name).replace(/\s+/g, ' ').trim();
+        }
+        function normalizeSectionName(name) {
+            if (!name) return '';
+            return String(name).replace(/\s+/g, ' ').trim();
+        }
+
+        // Añadir repe
+        function addRepe() {
+            const equipo = document.getElementById('equipoSelect').value;
+            const seccion = document.getElementById('seccionSelect').value;
+            const nc = document.getElementById('ncInput').value.trim();
+
+            // Validar
+            if (!seccion || !nc) {
+                alert('Por favor, completa todos los campos.');
+                return;
+            }
+
+            // Si no es Jugadores, ignoramos equipo
+            const storedEquipo = seccion === 'Jugadores' ? normalizeTeamName(equipo || '') : '';
+            const storedSeccion = normalizeSectionName(seccion);
+
+            // Crear objeto repe
+            const repe = {
+                equipo: storedEquipo,
+                seccion: storedSeccion,
+                nc,
+                id: Date.now() // ID único para cada repe
+            };
+
+            // Añadir a la lista
+            repes.push(repe);
+
+            // Limpiar formulario
+            document.getElementById('ncInput').value = '';
+            document.getElementById('ncInput').focus();
+
+            // Actualizar vista
+            renderRepes();
+        }
+
+        // Eliminar repe
+        function deleteRepe(id) {
+            repes = repes.filter(r => r.id !== id);
+            renderRepes();
+        }
+
+        // Limpiar todos los repes
+        function clearAllRepes() {
+            if (repes.length === 0) {
+                alert('No hay repes para limpiar.');
+                return;
+            }
+
+            if (confirm(`¿Estás seguro de que quieres eliminar todos los ${repes.length} repes?`)) {
+                repes = [];
+                renderRepes();
+                alert('Todos los repes han sido eliminados.');
+            }
+        }
+
+        // Guardar repes
+        function saveRepes() {
+            localStorage.setItem('repes', JSON.stringify(repes));
+            alert(`Se han guardado ${repes.length} repes.`);
+        }
+
+        // Renderizar repes
+        function renderRepes() {
+            const container = document.getElementById('repesList');
+
+            if (repes.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <p>No hay repes añadidos aún.</p>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Selecciona un equipo, una sección y un NC para comenzar.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Migrar/normalizar datos cargados por si vienen con espacios raros
+            repes = repes.map(r => ({
+                ...r,
+                equipo: r.seccion === 'Jugadores' ? normalizeTeamName(r.equipo) : '',
+                seccion: normalizeSectionName(r.seccion)
+            }));
+
+            // Agrupar: si es Jugadores => por Equipo; si no => solo por Sección
+            const groupedMap = {};
+            repes.forEach(repe => {
+                const isJug = repe.seccion === 'Jugadores';
+                const teamName = isJug ? normalizeTeamName(repe.equipo) : '';
+                const secName = normalizeSectionName(repe.seccion);
+                const groupKey = isJug ? teamName : secName;
+                if (!groupedMap[groupKey]) {
+                    
+                    // calcular color
+                    let bgColor = '#3182ce';
+                    if (isJug) {
+                        const raw = teamColors[teamName] || '#3182ce';
+                        bgColor = String(raw).split(',')[0];
+                    } else {
+                        bgColor = (sectionStyles[secName]?.color) || '#6B7280';
+                    }
+                    groupedMap[groupKey] = { key: groupKey, items: [], teamName, seccion: secName, color: bgColor };
+                }
+                groupedMap[groupKey].items.push(repe);
+            });
+
+            // Orden: primero equipos según equipoOrder, luego secciones en orden definido
+            const groups = Object.values(groupedMap);
+            groups.sort((a, b) => {
+                const aIsJug = a.seccion === 'Jugadores';
+                const bIsJug = b.seccion === 'Jugadores';
+                if (aIsJug && bIsJug) {
+                    const ai = equipoOrder.indexOf(normalizeTeamName(a.teamName));
+                    const bi = equipoOrder.indexOf(normalizeTeamName(b.teamName));
+                    return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+                }
+                if (aIsJug && !bIsJug) return -1;
+                if (!aIsJug && bIsJug) return 1;
+                // ambos no jugadores: ordenar por sección según sectionStyles.order
+                const ao = sectionStyles[a.seccion]?.order ?? 999;
+                const bo = sectionStyles[b.seccion]?.order ?? 999;
+                return ao - bo;
+            });
+
+            // Generar HTML
+            let html = '';
+            groups.forEach(group => {
+                // Para Jugadores solo mostrar el equipo, para otras secciones mostrar la sección completa
+                const header = group.seccion === 'Jugadores' ? group.teamName : group.key;
+                // ordenar items por NC como texto, pero con número si empieza por dígitos
+                const items = group.items.slice().sort((x, y) => String(x.nc).localeCompare(String(y.nc), 'es', { numeric: true }));
+                html += `
+                    <div class="repes-group">
+                        <div class="repes-group-header" style="background: ${group.color};">${header}</div>
+                        <div class="repes-group-content">
+                            ${items.map(repe => `
+                                <div class="repe-item">
+                                    <span class="repe-nc">${repe.nc}</span>
+                                    <span class="repe-delete" onclick="deleteRepe(${repe.id})" title="Eliminar">×</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        // Permitir añadir con Enter en el input NC
+        document.getElementById('ncInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                addRepe();
+            }
+        });
+
+        // Inicializar
+        initializeSelects();
+        renderRepes();
+    </script>
+</body>
+</html>
+

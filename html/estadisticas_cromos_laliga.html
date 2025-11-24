@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaLiga 2025-26 - Estadísticas</title>
+    <link rel="icon" type="image/png" href="../logos/LL_RGB_h_monocromo_positivo.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background: #FFFFFF;
+            color: #1a202c;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 0.5rem;
+        }
+
+        .header .subtitle {
+            color: #000000;
+            font-size: 1.1rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            padding: 0.5rem 1rem;
+            background: #3182ce;
+            color: white;
+            text-decoration: none;
+            border-radius: 0;
+            font-weight: 600;
+            transition: background-color 0.2s;
+        }
+
+        .back-link:hover {
+            background: #2c5aa0;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 0;
+            box-shadow: none;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-label {
+            color: #000000;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .stats-section {
+            background: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 0;
+            border: 1px solid #e2e8f0;
+        }
+
+        .stats-section h2 {
+            color: #2d3748;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .team-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .section-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .team-stat-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 0;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .team-stat-card:hover {
+            background: #f8f9fa;
+        }
+
+        .team-stat-logo {
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 0.5rem;
+            border-radius: 0;
+        }
+
+        .team-stat-name {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #4a5568;
+            margin-bottom: 0.5rem;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .team-stat-progress {
+            width: 100%;
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 0;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+        }
+
+        .team-stat-progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #10B981, #059669);
+            transition: width 0.3s ease;
+            border-radius: 0;
+        }
+
+        .team-stat-percentage {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #2d3748;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .section-stat-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 0;
+            padding: 1.5rem;
+        }
+
+        .section-stat-card:hover {
+            background: #f8f9fa;
+        }
+
+        .section-stat-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .section-stat-icon {
+            width: 32px;
+            height: 32px;
+            margin-right: 0.75rem;
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .section-stat-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #2d3748;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .section-stat-progress {
+            width: 100%;
+            height: 12px;
+            background: #e2e8f0;
+            border-radius: 0;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-stat-progress-bar {
+            height: 100%;
+            transition: width 0.3s ease;
+            border-radius: 0;
+        }
+
+        .section-stat-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: #4a5568;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .file-loader {
+            background: #fffbe6;
+            border: 1px solid #f6ad55;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0;
+            text-align: center;
+        }
+
+        .file-loader input[type="file"] {
+            margin-top: 0.5rem;
+            padding: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .team-stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="checklist_cromos_laliga.html" class="back-link">← Volver al Checklist Principal</a>
+        
+        <div class="header">
+            <h1>📊 Estadísticas</h1>
+            <p class="subtitle">Progreso de tu colección</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalCromos">0</div>
+                <div class="stat-label">Total Cromos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="cromosObtenidos">0</div>
+                <div class="stat-label">Obtenidos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="porcentaje">0%</div>
+                <div class="stat-label">Completado</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="cromosFaltantes">0</div>
+                <div class="stat-label">Faltantes</div>
+            </div>
+        </div>
+
+        <div id="fileLoaderContainer"></div>
+
+        <div id="statsSection" class="stats-section" style="display: none;">
+            <h2>📊 Estadísticas por Equipos</h2>
+            <div id="teamStats" class="team-stats-grid">
+                <!-- Se llenará dinámicamente -->
+            </div>
+            
+            <h2 style="margin-top: 3rem;">📈 Estadísticas por Secciones</h2>
+            <div id="sectionStats" class="section-stats-grid">
+                <!-- Se llenará dinámicamente -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Datos de cromos (se cargan del HTML principal o del JSON)
+        let cromosData = [];
+
+        // Mapeo de equipos a sus logos oficiales
+        const teamLogos = {
+            'DEPORTIVO ALAVÉS': '../logos/Deportivo-Alaves-v2020.png',
+            'ATHLETIC CLUB': '../logos/Athletic-Club-Bilbao-v2008.png',
+            'ATLÉTICO DE MADRID': '../logos/Atletico-Madrid-v2024.png',
+            'FC BARCELONA': '../logos/FC-Barcelona-v2002.png',
+            'REAL BETIS': '../logos/Real-Betis-v2022.png',
+            'RC CELTA': '../logos/RC-Celta-de-Vigo-v2010.png',
+            'ELCHE CF': '../logos/Elche-CF-v2009.png',
+            'RCD ESPANYOL': '../logos/RCD-Espanyol-v2005.png',
+            'GETAFE CF': '../logos/Getafe-Club-de-Futbol-v2011.png',
+            'GIRONA  FC': '../logos/Girona-Futbol-Club-v2021.png',
+            'LEVANTE UD': '../logos/Levante-UD-v2010.png',
+            'REAL MADRID': '../logos/Real-Madrid-CF-v2002.png',
+            'RCD MALLORCA': '../logos/Real-Club-Deportivo-Mallorca-v1996.png',
+            'C.A. OSASUNA': '../logos/Club-Atletico-Osasuna-v2004.png',
+            'REAL OVIEDO': '../logos/Real-Oviedo-v2019.png',
+            'RAYO VALLECANO': '../logos/Rayo-Vallecano-de-Madrid-v2012.png',
+            'REAL SOCIEDAD': '../logos/Real-Sociedad-de-Futbol-v1997.png',
+            'SEVILLA FC': '../logos/Sevilla-Futbol-Club-v1995.png',
+            'VALENCIA CF': '../logos/Valencia-Club-de-Futbol-v2012.png',
+            'VILLARREAL CF': '../logos/Villarreal-Club-de-Futbol-v2009.png'
+        };
+
+        // Función para cargar datos de cromos
+        async function loadCromosData() {
+            // 1) Intentar leer del localStorage preparado por la página principal
+            const fromLocal = localStorage.getItem('cromosDataFull');
+            if (fromLocal) {
+                try {
+                    cromosData = JSON.parse(fromLocal) || [];
+                } catch {}
+            }
+            // 2) Si no hay datos, intentar cargar cromos_data.json (solo funciona con servidor)
+            if (!Array.isArray(cromosData) || cromosData.length === 0) {
+                try {
+                    const response = await fetch('../cromos_data.json');
+                    cromosData = await response.json();
+                } catch {}
+            }
+            // 3) Si aún no hay datos, ofrecer carga manual
+            if (!Array.isArray(cromosData) || cromosData.length === 0) {
+                showFileLoader();
+                return;
+            }
+            // Ocultar loader si existe y mostrar sección
+            const loaderContainer = document.getElementById('fileLoaderContainer');
+            if (loaderContainer) loaderContainer.style.display = 'none';
+            document.getElementById('statsSection').style.display = 'block';
+            initializeStats();
+        }
+
+        // Función para mostrar opción de cargar archivo
+        function showFileLoader() {
+            const container = document.getElementById('fileLoaderContainer');
+            container.innerHTML = `
+                <div class="file-loader">
+                    <p><strong>No se pudo cargar los datos automáticamente.</strong></p>
+                    <p>Por favor, carga el archivo <code>cromos_data.json</code> manualmente:</p>
+                    <input type="file" id="cromosFile" accept="application/json">
+                </div>
+            `;
+            
+            const fileInput = document.getElementById('cromosFile');
+            fileInput.addEventListener('change', function(e) {
+                const file = e.target.files?.[0];
+                if (!file) return;
+                
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    try {
+                        cromosData = JSON.parse(event.target.result);
+                        console.log('✅ Datos cargados manualmente:', cromosData.length, 'cromos');
+                        container.style.display = 'none';
+                        document.getElementById('statsSection').style.display = 'block';
+                        initializeStats();
+                    } catch (err) {
+                        alert('Error leyendo el archivo JSON: ' + err.message);
+                    }
+                };
+                reader.readAsText(file);
+            });
+        }
+
+        // Función para obtener cromos obtenidos
+        function getObtenidos() {
+            const obtenidos = localStorage.getItem('cromosObtenidos');
+            return obtenidos ? JSON.parse(obtenidos) : [];
+        }
+
+        // Función para actualizar estadísticas generales
+        function updateStats() {
+            const obtenidos = getObtenidos();
+            const total = cromosData.length;
+            const obtenidosCount = cromosData.filter(c => obtenidos.includes(c.numero)).length;
+            const porcentaje = total > 0 ? Math.round((obtenidosCount / total) * 100) : 0;
+            const faltantes = total - obtenidosCount;
+
+            document.getElementById('totalCromos').textContent = total;
+            document.getElementById('cromosObtenidos').textContent = obtenidosCount;
+            document.getElementById('porcentaje').textContent = porcentaje + '%';
+            document.getElementById('cromosFaltantes').textContent = faltantes;
+        }
+
+        // Función para generar estadísticas por equipos
+        function generateTeamStats() {
+            const teamStatsContainer = document.getElementById('teamStats');
+            const teamStats = {};
+            const obtenidos = getObtenidos();
+            
+            // Calcular estadísticas por equipo
+            cromosData.forEach(cromo => {
+                if (!teamStats[cromo.equipo]) {
+                    teamStats[cromo.equipo] = {
+                        total: 0,
+                        obtenidos: 0,
+                        logo: teamLogos[cromo.equipo] || null
+                    };
+                }
+                teamStats[cromo.equipo].total++;
+                if (obtenidos.includes(cromo.numero)) {
+                    teamStats[cromo.equipo].obtenidos++;
+                }
+            });
+            
+            // Orden personalizado de equipos
+            const equipoOrder = [
+                'DEPORTIVO ALAVÉS',
+                'ATHLETIC CLUB',
+                'ATLÉTICO DE MADRID',
+                'FC BARCELONA',
+                'REAL BETIS',
+                'RC CELTA',
+                'ELCHE CF',
+                'RCD ESPANYOL',
+                'GETAFE CF',
+                'GIRONA  FC',
+                'LEVANTE UD',
+                'REAL MADRID',
+                'RCD MALLORCA',
+                'C.A. OSASUNA',
+                'REAL OVIEDO',
+                'RAYO VALLECANO',
+                'REAL SOCIEDAD',
+                'SEVILLA FC',
+                'VALENCIA CF',
+                'VILLARREAL CF'
+            ];
+            
+            // Generar HTML para cada equipo
+            teamStatsContainer.innerHTML = equipoOrder.map(equipo => {
+                const stats = teamStats[equipo];
+                if (!stats) return '';
+                
+                const porcentaje = stats.total > 0 ? Math.round((stats.obtenidos / stats.total) * 100) : 0;
+                const logoPath = stats.logo;
+                const teamInitials = equipo.split(' ').map(word => word[0]).join('').substring(0, 3);
+                
+                return `
+                    <div class="team-stat-card">
+                        ${logoPath ? 
+                            `<img src="${logoPath}" alt="${equipo}" class="team-stat-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                             <div class="team-stat-logo" style="display:none; background:#e2e8f0; align-items:center; justify-content:center; font-size:0.7rem; font-weight:bold; color:#4a5568;">${teamInitials}</div>` :
+                            `<div class="team-stat-logo" style="background:#e2e8f0; align-items:center; justify-content:center; font-size:0.7rem; font-weight:bold; color:#4a5568;">${teamInitials}</div>`
+                        }
+                        <div class="team-stat-name">${equipo}</div>
+                        <div class="team-stat-progress">
+                            <div class="team-stat-progress-bar" style="width: ${porcentaje}%"></div>
+                        </div>
+                        <div class="team-stat-percentage">${porcentaje}% (${stats.obtenidos}/${stats.total})</div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        // Función para generar estadísticas por secciones
+        function generateSectionStats() {
+            const sectionStatsContainer = document.getElementById('sectionStats');
+            const sectionStats = {};
+            const obtenidos = getObtenidos();
+            
+            // Calcular estadísticas por sección
+            cromosData.forEach(cromo => {
+                if (!sectionStats[cromo.seccion]) {
+                    sectionStats[cromo.seccion] = {
+                        total: 0,
+                        obtenidos: 0
+                    };
+                }
+                sectionStats[cromo.seccion].total++;
+                if (obtenidos.includes(cromo.numero)) {
+                    sectionStats[cromo.seccion].obtenidos++;
+                }
+            });
+            
+            // Iconos y colores para cada sección
+            const sectionStyles = {
+                'Jugadores': { icon: '⚽', color: '#000000' },
+                'ADN LA LIGA / SUPERKIDS': { icon: '🌟', color: '#3B82F6' },
+                'Mister Cero': { icon: '🎯', color: '#FF6B35' },
+                'Mix': { icon: '🎨', color: '#FFD700' },
+                'Ultimos fichajes': { icon: '🆕', color: '#10B981' },
+                'Extra Gold': { icon: '✨', color: '#FFD700' }
+            };
+            
+            // Orden de secciones
+            const seccionOrder = [
+                'Jugadores',
+                'ADN LA LIGA / SUPERKIDS',
+                'Mister Cero',
+                'Mix',
+                'Ultimos fichajes',
+                'Extra Gold'
+            ];
+            
+            // Generar HTML para cada sección
+            sectionStatsContainer.innerHTML = seccionOrder.map(seccion => {
+                const stats = sectionStats[seccion];
+                if (!stats) return '';
+                
+                const porcentaje = stats.total > 0 ? Math.round((stats.obtenidos / stats.total) * 100) : 0;
+                const style = sectionStyles[seccion] || { icon: '📋', color: '#6B7280' };
+                
+                return `
+                    <div class="section-stat-card">
+                        <div class="section-stat-header">
+                            <div class="section-stat-icon" style="background-color: ${style.color}">${style.icon}</div>
+                            <div class="section-stat-title">${seccion}</div>
+                        </div>
+                        <div class="section-stat-progress">
+                            <div class="section-stat-progress-bar" style="width: ${porcentaje}%; background-color: ${style.color}"></div>
+                        </div>
+                        <div class="section-stat-info">
+                            <span>${stats.obtenidos} de ${stats.total}</span>
+                            <span>${porcentaje}%</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Función para inicializar todas las estadísticas
+        function initializeStats() {
+            updateStats();
+            generateTeamStats();
+            generateSectionStats();
+        }
+
+        // Cargar datos e inicializar
+        loadCromosData();
+
+        // Actualizar cada 2 segundos para mantener estadísticas actualizadas
+        setInterval(() => {
+            initializeStats();
+        }, 2000);
+    </script>
+</body>
+</html>
+
